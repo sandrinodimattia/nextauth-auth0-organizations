@@ -4,10 +4,10 @@ import type { ReactNode } from "react"
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <>
+    <div id="layout">
       <Header />
       <main>{children}</main>
       <Footer />
-    </>
+    </div>
   )
 }
